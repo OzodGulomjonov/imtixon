@@ -1,0 +1,156 @@
+.site-contect__section {
+   padding-top: 90px;
+}
+
+.site-contect__section-hr {
+   position: absolute;
+}
+
+.site-contect__section-content {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.site-contect__section-heading {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 42px;
+   color: #33323D;
+   font-family: $font-nova;
+}
+
+.site-contect__section-text {
+   max-width: 635px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;   
+   color: #33323D;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+}
+
+.site-contect__section-list {
+   list-style-type: none;
+   display: flex;
+   align-items: flex-start;
+   margin: 0;
+   padding: 0;
+}
+
+.site-contect__section-list-item {
+
+   &:not(:first-child) {
+      margin-left: 20px;
+   }
+}
+
+.site-contect__section-hr {
+   position: absolute;
+   background: #33323D;
+   mix-blend-mode: normal;
+   top: 150px;
+   opacity: 0.6;
+}
+
+@media only screen and (max-width:940px) {
+   
+   .site-contect__section-content {
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+@media only screen and (max-width:675px) {
+   
+   .site-contect__section-text {
+      font-size: 12px;
+      line-height: 24px;
+      max-width: 260px;
+   }
+
+   .site-contect__section-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+.site-contect__section-contact-me {
+   display: flex;
+   align-items: flex-start;
+}
+
+.site-contect__section-contact-me-text-wrapper {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.site-contect__section-contact-me-heading {
+   font-size: 40px;
+   line-height: 42px;
+   color: #33323D;
+   font-weight: 700;
+   font-family: $font-nova;
+}
+.site-contect__section-contact-me-form {
+}
+.site-contect__section-contact-me-form-wrapper {
+}
+.site-contect__section-contact-me-form-text {
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 30px;
+   color: #33323D;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+}
+
+.site-contect__section-contact-me-form {
+   max-width: 645px;
+   width: 100%;
+}
+
+.site-contect__section-contact-me-form-label {
+}
+.site-contect__section-contact-me-form-input {
+   max-width: 645px;
+   width: 100%;
+   background: #33323d1a;
+   mix-blend-mode: normal;
+   padding-top: 10px;
+   padding-left: 15px;
+   border: none;
+   
+   &::placeholder {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 30px;
+      color: rgb(0, 0, 0);
+      mix-blend-mode: normal;
+   }
+}
+
+.site-contect__section-contact-me-form-btn {
+   display: block;
+   margin-bottom: 200px;
+   height: 50px;
+   width: 200px;
+   border: none;
+   background: #203A4C;
+   font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+&:hover {
+   background: #5FB4A2;
+   color: white;
+}
+
+}

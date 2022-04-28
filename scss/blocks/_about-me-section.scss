@@ -1,0 +1,82 @@
+.about-me-section {
+   background-image: url(../../img/kompyuter_1x.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 228px;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.about-me-section__content {
+   max-width: 445px;
+   background-color: $color-white;
+   padding-top: 56px;
+   padding-right: 55px;
+}
+
+.about-me-section__content-text {
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 50px; 
+   color: $color-dark;
+   font-family: 'Ibarra Real Nova';
+   max-width: 390px;
+}
+
+.about-me-section__content-link-wrapper {
+   display: flex;
+   align-items: center;
+   padding-top: 17px;
+   padding-bottom: 17px;
+   background-color: $second-color-dark;
+   max-width: 200px;
+   transition: 0.4s;
+
+   &:hover {
+      transition: 0.9s;
+      background-color: $color-green;
+   }
+}
+
+.about-me-section__content-link {
+   font-family: $font-public-sans;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 14px;
+   color: $color-white;
+   text-align: center;
+   width: 100%;
+}
+
+.about-me-section__content-img {
+   margin-left: 14px;
+}
+
+@media only screen and (max-width:470px) {
+   
+   .about-me-section__content {
+      max-width: 270px;
+      padding-top: 0;
+   }
+
+   .about-me-section__content-text {
+      max-width: 250px;
+   }
+
+   .about-me-section {
+      background-size: contain;
+   }
+
+   
+   .about-me-section__content {
+      text-align: center;
+      margin: 0 auto;
+   }
+}
+
+@media only screen and (max-width:440px) {
+   
+   .about-me-section {
+      margin-top: 100px;
+   }
+}
